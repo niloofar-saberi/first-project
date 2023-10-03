@@ -36,6 +36,8 @@ form
 {
 	margin-left: 20px;
 	margin-right: 10px;
+	text-size-adjust: 12;
+	size: adjust 20px; 
 }
 label 
 {
@@ -44,4 +46,8 @@ label
 textarea
 {
 	margin-left: 20px;
+}
+p
+{
+	font-size: 14;
 }
