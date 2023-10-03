@@ -25,7 +25,8 @@ h2
 	background-color: #ffffff;
 	text-align: center;
 	border-style: ridge;
-	border-inline-end-color: blueviolet;
+	border-inline-end-color: #d3d3d3;
+	;
 	height: 35px;
 	margin-left: 70px;
 	margin-right: 70px;
@@ -42,5 +43,5 @@ label
 }
 textarea
 {
-	margin-left: 40px;
+	margin-left: 20px;
 }
