@@ -16,6 +16,8 @@ h1
 	border-width: 10px;
 	border-radius :5px;
 	margin: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
 	border-radius: 10px;
 }
 h2
@@ -32,10 +34,14 @@ h2
 }
 form 
 {
-	margin-left: 10px;
+	margin-left: 40px;
 	margin-right: 10px;
 }
 label 
 {
 	margin-left: 10px;
+}
+textarea
+{
+	margin-left: 40px;
 }
