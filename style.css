@@ -10,31 +10,30 @@ h1
 {
 	color: gray;
 	background-color: #ffffff;
-	font-size: 20;
-	text-align: center;
+	font-size: 7;
+	text-align: left;
 	border: black double;
-	border-width: 10px;
-	border-radius :5px;
-	margin: 20px;
-	margin-left: 40px;
-	margin-right: 40px;
+	border-width: 5px;
+	border-radius :10px;
+	margin-left: 20px;
+	margin-right: 1200px;
 	border-radius: 10px;
 }
 h2
 {
 	color: darkblue;
 	background-color: #ffffff;
-	text-align: left;
+	text-align: center;
 	border-style: ridge;
 	border-inline-end-color: blueviolet;
 	height: 35px;
-	margin-right: 1200px;
-	margin-left: 10px;
+	margin-left: 70px;
+	margin-right: 70px;
 	border-radius: 5px;
 }
 form 
 {
-	margin-left: 40px;
+	margin-left: 20px;
 	margin-right: 10px;
 }
 label 
