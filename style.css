@@ -1,23 +1,19 @@
 body
 {
-		background-color: #d3d3d3;
-		border-style: solid ;
-		border-width: 3px;
-		margin: 20px;
-		border-radius: 10px;
+		background-color: #f4e3ff;
+		padding: 5%;
+		
 }
 h1
 {
-	color: gray;
+	color: black;
 	background-color: #ffffff;
-	font-size: 7;
-	text-align: left;
-	border: black double;
-	border-width: 5px;
-	border-radius :10px;
-	margin-left: 20px;
-	margin-right: 1200px;
+	padding: 2% 20%;
+	text-align: center;
 	border-radius: 10px;
+	line-height: 10px;
+
+	
 }
 h2
 {
@@ -47,7 +43,8 @@ textarea
 {
 	margin-left: 20px;
 }
-p
+.paragraph
 {
-	font-size: 14;
+	font-size: 18;
+	font-style: italic;
 }
