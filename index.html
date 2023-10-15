@@ -9,113 +9,175 @@
 </head>
 
 <body>
-	<h1>Informtion Form</h1>
-	<div class="paragraph">
-	<p>Fill the blanks and enter your information</p></div>
-	<h2>Personal Information</h2>
-	<br>
-	<form>
-		Firs Name: <input type="text" name="name" placeholder="niloo">
+	<main class="main">
+		<h1>Informtion Form</h1>
+		<div class="paragraph">
+			<p>Fill the blanks and enter your information</p>
+		</div>
+		<div class="h2">
+			<h2>Personal Information</h2>
+		</div>
 		<br>
-		Last Name: <input type="text" name="name" placeholder="saberi">
+		<div class="information">
+			<form>
+				<div class="information-child">
+					Firs Name: <input type="text" name="name" placeholder="niloo">
+				</div>
+				<div class="information-child">
+					Last Name: <input type="text" name="name" placeholder="saberi">
+				</div>
+				<div class="information-child">
+					Your Age: <input type="number" name="age" value="age" placeholder="33">
+				</div>
+				<div class="information-child">
+					Your Gender: <select name="sex" id="sex">
+						<option value="female">female</option>
+						<option value="male">male</option>
+						git <option value="....">othe</option>
+					</select>
+				</div>
+		</div>
+
+
+		</form>
+		<div class="information-child">
+			<input type="submit" name="submit">
+		</div>
 		<br>
-		Your Age: <input type="number" name="age" value="age" placeholder="33">
+		<hr>
+		<div class="h2">
+			<h2>Educational Information</h2>
+		</div>
 		<br>
-		Your Gender: <select name="sex" id="sex">
-			<option value="female">female</option>
-			<option value="male">male</option>
-			git <option value="....">othe</option>
-		</select>
+		<div class="education">
+			<label for="grade">Choose your grade:</label>
 
 
-	</form>
-	<br>
-	<input type="submit" name="submit">
-	<br>
-	<hr>
-	<h2>Educational Information</h2>
-	<br>
-
-	<label for="grade">Choose your grade:</label>
-
-	<form action="input">
+			<form action="input">
+				<br>
+				<div class="edication-child">
+					<input type="radio" name="name" value="Highschool">Highschool
+				</div>
+				<div class="edication-child">
+					<input type="radio" name="name" value="Bachelor">Bachelor
+				</div>
+				<div class="edication-child">
+					<input type="radio" name="name" value="Master">Master
+				</div>
+				<div class="edication-child">
+					<input type="radio" name="name" value="PHD">PHD
+				</div>
+			</form>
+		</div>
 		<br>
-		<input type="radio" name="name" value="Highschool">Highschool
-		<input type="radio" name="name" value="Bachelor">Bachelor
-		<input type="radio" name="name" value="Master">Master
-		<input type="radio" name="name" value="PHD">PHD
+		<div class="field">
+			<div class="field-child">
+				<label for="text">Enter your field of study please:</label>
+				<input type="text">
+			</div>
+			<div class="field-child">
+				<label for="number">Enter your last score please:</label>
+				<input type="number">
+			</div>
+			<br>
+			<div class="field-child">
+				<br>
+				<label for="text">Write the reason why you choose this fieid please:</label>
+			</div>
+			<div class="field-child">
+				<textarea name="field " id="" cols="70" rows="7"></textarea>
+			</div><br>
 
-	</form>
-	<br>
-	<label for="text">Enter your field of study please:</label>
-	<input type="text">
-	<label for="number">Enter your last score please:</label>
-	<input type="number">
-	<br>
-	<br>
-	<label for="text">Write the reason why you choose this fieid please:</label>
-	<br>
-	<textarea name="field " id="" cols="70" rows="7"></textarea>
-	</form>
-	<br>
-	<input type="submit" name="submit">
-	<br>
-	<hr>
-	<br>
+			</form>
+		</div>
+		<div class="information-child">
+			<input type="submit" name="submit">
+		</div>
 
-	<h2>More Information</h2>
-	<br>
-	<label for="english skills">Your English skills:</label>
-	<form action="input">
+
+		</div>
+
 		<br>
-		<input type="radio" name="name" value="Pre-intermadiate">Pre-intermadiate
-		<input type="radio" name="name" value="Intermadiate">Intermadiate
-		<input type="radio" name="name" value="Advanced">Advanced
-
-	</form>
-	<br>
-	<label for="Team-work skills">Your Team-work skills:</label>
-	<form action="input">
+		<hr>
+		</div>
+		<div class="h2">
+			<h2>More Information</h2>
+		</div>
 		<br>
-		<input type="radio" name="name" value="Pre-intermadiate">Pre-intermadiate
-		<input type="radio" name="name" value="Intermadiate">Intermadiate
-		<input type="radio" name="name" value="Advanced">Advanced
+		<div class="more information">
+			<div class="more-child">
+				<label for="english skills">Your English skills:</label>
+			</div>
+			<div class="more-child">
+				<form action="input">
+					<br>
+					<input type="radio" name="name" value="Pre-intermadiate">Pre-intermadiate
+					<input type="radio" name="name" value="Intermadiate">Intermadiate
+					<input type="radio" name="name" value="Advanced">Advanced
 
-	</form>
-	<br>
-
-	<br>
-	<label for="Your interst">You are intrested in:</label>
-	<form action="input">
+				</form>
+			</div>
+		</div>
 		<br>
-		<input type="checkbox" name="name" value="Education">Education
-		<input type="checkbox" name="name" value="Science">Science
-		<input type="checkbox" name="name" value="Sport">Sport
-		<input type="checkbox" name="name" value="Art">Art
-		<input type="checkbox" name="name" value="Social-Networks">Social-Networks
-	</form>
-	<br>
-	<input type="submit" name="submit">
-	<br>
-	<hr>
-	<br>
-	<h2>Contact Information</h2>
-	<br>
-	<label for="Your content Information">Enter your Contact information please:</label>
-	<br>
-	<br>
-	Phone Number: <input type="text" name="name" placeholder="09121111111">
-	<br>
-	Email Address: <input type="text" name="name" placeholder="info@gmail.com">
-	<br>
-	<input type="submit" name="submit">
-	<br>
-	<hr>
-	<br>
+
+		<div class="skills">
+			<label for="Team-work skills">Your Team-work skills:</label>
+			<div class="more-skills">
+				<form action="input">
+					<br>
+					<input type="radio" name="name" value="not-good">Not Good
+					<input type="radio" name="name" value="good">Good
+					<input type="radio" name="name" value="well">well
+
+				</form>
+			</div>
+		</div>
+		<br>
+
+		<br>
+		<div class="skills">
+			<div class="more-skills"><label for="Your interst">You are intrested in:</label></div>
+			<form action="input">
+				<br>
+				<input type="checkbox" name="name" value="Education">Education
+				<input type="checkbox" name="name" value="Science">Science
+				<input type="checkbox" name="name" value="Sport">Sport
+				<input type="checkbox" name="name" value="Art">Art
+				<input type="checkbox" name="name" value="Social-Networks">Social-Networks
+			</form>
+		</div>
+		</div>
+		</div>
+		<br>
+		<div class="more-child"><input type="submit" name="submit"></div>
+		<br>
+		<hr>
+		<br>
+		</div>
+		</div>
+		<div class="h2">
+			<h2>Contact Information</h2>
+		</div>
+		<br>
 
 
+		<label for="Your content Information">Enter your Contact information please:</label>
+		<div class="contact">
+			<br>
+			<br>
 
+			<div class="contact-child">Phone Number: <input type="text" name="name" placeholder="09121111111"></div>
+			<br>
+			<div class="contact-child">Email Address: <input type="text" name="name" placeholder="info@gmail.com"></div>
+			<br>
+			<div class="information-child">
+				<input type="submit" name="submit">
+			</div>
 
+			<hr>
+			<br>
+		</div>
+	</main>
 
 </body>
 
