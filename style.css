@@ -1,3 +1,4 @@
+
 body {
 	background-color: #ddf6ff;
 	margin: 0;
@@ -30,22 +31,16 @@ h1 {
 	border-radius: 5px;
 }
 
-/* form 
-{
-	margin-left: 20px;
-	margin-right: 10px;
-	text-size-adjust: 12;
-	size: adjust 20px; 
-} */
+
 .information {
 	padding: 30px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	line-height: 5px;
-	padding: 10px;
+	
+	
 	justify-items: center;
-	flex-wrap: wrap;
+	
 
 }
 
@@ -54,31 +49,31 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	line-height: 5px;
-	padding: 10px;
+
+	align-items: center;
 	justify-items: center;
+	width: 100%;
 }
 
 .education {
 	padding: 30px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	line-height: 5px;
+	justify-content: space-between;
+
 	padding: 10px;
-	justify-items: center;
+align-items: center;
 	flex-wrap: wrap;
+	
 }
 
 .education-child {
 	padding: 30px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	line-height: 5px;
-	padding: 10px;
-	justify-items: center;
-	flex-wrap: wrap;
+	justify-content: space-between;
+align-items: center;
+
 }
 
 .paragraph {
@@ -92,9 +87,10 @@ h1 {
 	flex-direction: row;
 	justify-content: space-around;
 	line-height: 5px;
-	padding: 10px;
-	justify-items: center;
+
+align-items: center;
 	flex-wrap: wrap;
+	
 }
 
 .fiel-child {
@@ -104,8 +100,8 @@ h1 {
 	justify-content: space-between;
 	line-height: 10px;
 
-	padding: 10px;
-	justify-items: center;
+	margin-bottom: 20px;
+align-items: center;
 	flex-wrap: wrap;
 }
 
@@ -116,7 +112,7 @@ h1 {
 	justify-content: space-between;
 	line-height: 5px;
 	padding-left: 40px;
-	padding: 10px;
+	
 	justify-items: center;
 	flex-wrap: wrap;
 }
@@ -128,9 +124,9 @@ h1 {
 	justify-content: space-between;
 	line-height: 5px;
 	padding-left: 40px;
-	padding: 10px;
+
 	justify-items: center;
-	flex-wrap: wrap;
+
 }
 
 .skills {
@@ -140,7 +136,7 @@ h1 {
 	justify-content: space-between;
 	line-height: 5px;
 	padding-left: 40px;
-	padding: 10px;
+
 	justify-items: center;
 	flex-wrap: wrap;
 }
@@ -154,8 +150,7 @@ h1 {
 	padding-left: 40px;
 	padding: 10px;
 	justify-items: center;
-	flex-wrap: wrap;
-}
+
 
 .contact {
 	padding: 30px;
@@ -179,4 +174,13 @@ h1 {
 	padding: 10px;
 	justify-items: center;
 	flex-wrap: wrap;
+}
+.button
+{
+	display: flex;
+	padding: 20%;
+	border-radius:10px;
+	align-items: center;
+	justify-items: center;
+	margin-bottom: 20px;
 }
