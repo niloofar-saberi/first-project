@@ -3,6 +3,8 @@ body {
 	background-color: #ddf6ff;
 	margin: 0;
 	padding: 0;
+	width: 100vw;
+	height: 100vh;
 }
 
 .main {
@@ -37,9 +39,8 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	
-	
 	justify-items: center;
+	gap: 20px;
 	
 
 }
@@ -48,11 +49,23 @@ h1 {
 	padding: 30px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-
+	justify-content: center;
 	align-items: center;
 	justify-items: center;
 	width: 100%;
+	gap: 20px;
+}
+.information-child2
+{
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	width: 100%;
+	gap: 20px;
+	opacity: 0.5;
 }
 
 .education {
@@ -150,9 +163,11 @@ align-items: center;
 	padding-left: 40px;
 	padding: 10px;
 	justify-items: center;
+}
 
 
-.contact {
+.contact 
+{
 	padding: 30px;
 	display: flex;
 	flex-direction: row;
