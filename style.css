@@ -41,6 +41,7 @@ h1 {
 	justify-content: space-around;
 	justify-items: center;
 	gap: 20px;
+	position: relative;
 	
 
 }
@@ -103,6 +104,7 @@ align-items: center;
 
 align-items: center;
 	flex-wrap: wrap;
+	position: relative;
 	
 }
 
@@ -152,6 +154,7 @@ align-items: center;
 
 	justify-items: center;
 	flex-wrap: wrap;
+	position: relative;
 }
 
 .more-skills {
@@ -177,6 +180,7 @@ align-items: center;
 	padding: 10px;
 	justify-items: center;
 	flex-wrap: wrap;
+	position: relative;
 }
 
 .contact-child {
@@ -190,12 +194,55 @@ align-items: center;
 	justify-items: center;
 	flex-wrap: wrap;
 }
-.button
+button
 {
-	display: flex;
-	padding: 20%;
-	border-radius:10px;
-	align-items: center;
-	justify-items: center;
-	margin-bottom: 20px;
+	width: 100px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: white;
+	cursor: pointer;
+
+position: absolute;
+bottom: 20px;
+right: 5px;
+}
+form
+{
+	width: 800px;
+}
+.field.field-child2
+{
+	width: 100px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: white;
+	cursor: pointer;
+
+position: absolute;
+bottom: 20px;
+right: 5px;
+}
+.skills.more-skills2
+{
+	width: 100px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: white;
+	cursor: pointer;
+
+position: absolute;
+bottom: 20px;
+right: 5px;
+}
+.contact.contact-child2
+{
+	width: 100px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: white;
+	cursor: pointer;
+
+position: absolute;
+bottom: 20px;
+right: 5px;	
 }
