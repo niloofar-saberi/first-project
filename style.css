@@ -18,7 +18,8 @@ h1 {
 	text-align: center;
 	border-radius: 10px;
 	line-height: 10px;
-
+animation: h1 5s;
+animation-timing-function: ease-in;
 
 }
 
@@ -245,4 +246,10 @@ right: 5px;
 position: absolute;
 bottom: 20px;
 right: 5px;	
+}
+
+@keyframes h1
+{
+form {left: 0px;}
+to {left: 500px;}
 }
